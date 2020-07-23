@@ -1,5 +1,5 @@
-local bresen = require("BresenhamAPI")
-local writer = require("writer")
+local bresen = require("BresenhamAPI") -- https://pastebin.com/Km4Z1W1D
+local writer = require("writer")       -- https://pastebin.com/rWPVArBW
 local canvas3d = peripheral.call("back", "canvas3d")
 local c3 = peripheral.call("back", "canvas")
 local sense = function() return peripheral.call("back", "sense") end
